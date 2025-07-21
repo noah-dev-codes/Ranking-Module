@@ -16,7 +16,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Ranking SYSTEM Active."}
 from fastapi import HTTPException
 
 
